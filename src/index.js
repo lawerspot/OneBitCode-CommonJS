@@ -9,5 +9,5 @@ let planets = [
 
 planets.forEach(planetas => {
     let distanceInKm = infoConvert.convertAUtoKm(planetas.auToSun).toFixed(2)
-    console.log(`${planetas.name} - ${planetas.auToSun}AU - ${distanceInKm}km`)
+    console.log(`${planetas.name} - Distância: ${planetas.auToSun}AU - Em ${distanceInKm}km`)
 })
